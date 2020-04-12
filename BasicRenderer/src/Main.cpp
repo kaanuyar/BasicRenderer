@@ -60,7 +60,7 @@ int main()
 
 	glEnable(GL_DEPTH_TEST);
 
-	Shader ourShader("src/shaders/VertexShader.vs", "src/shaders/FragmentShader.fs");
+	Shader ourShader("src/shaders/VertexShader.vert", "src/shaders/FragmentShader.frag");
 
 	Model ourModel("res/models/nanosuit/nanosuit.obj");
 
